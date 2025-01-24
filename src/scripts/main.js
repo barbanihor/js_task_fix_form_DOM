@@ -19,5 +19,5 @@ listOfInputs.forEach((elemInput) => {
 
   elemInput.setAttribute('placeholder', prepareAttribute(inputName));
 
-  parentNode.appendChild(label);
+  parentNode.insertBefore(label, elemInput);
 });
